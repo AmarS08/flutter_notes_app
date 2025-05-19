@@ -1,5 +1,4 @@
-/*
-import 'package:flutter/material.dart';
+/*import 'package:flutter/material.dart';
 import 'package:sqflite_creation_poc/strings.dart';
 import 'database_helper.dart';
 import 'note.dart';
@@ -172,8 +171,7 @@ class _NotesPageState extends State<NotesPage> {
       ),
     );
   }
-}
-*/
+}*/
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

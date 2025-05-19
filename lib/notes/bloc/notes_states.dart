@@ -6,4 +6,4 @@ class NotesLoadedState extends NotesState {}
 
 class NotesErrorState extends NotesState {}
 
-// class NotesNoDataState extends NotesState {}
+class NotesNoDataState extends NotesState {}
