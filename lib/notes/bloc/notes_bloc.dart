@@ -21,6 +21,7 @@ class NotesBloc extends Cubit<NotesState> {
       notesList = await DatabaseHelper.instance.getAllNotes();
       if(notesList.isEmpty){
         emit(NotesNoDataState());
+        return;
       }
       emit(NotesLoadedState());
     }catch(e){
